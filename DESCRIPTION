@@ -1,0 +1,12 @@
+Package: bragging
+Type: Package
+Title: Bootstrap smoothing GLM with branching forward selection
+Version: 0.0-1
+Date: 2015-05-15
+Author: Peter Solymos
+Maintainer: Peter Solymos <solymos@ualberta.ca>
+Description: Bootstrap smoothing GLM with branching forward selection.
+License: GPL-2
+URL: http://github.com/psolymos/bragging
+LazyLoad: yes
+LazyData: true
