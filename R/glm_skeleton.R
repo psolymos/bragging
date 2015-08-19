@@ -5,7 +5,7 @@
 
 glm_skeleton <- function(object, ..., CAICalpha=0.5) {
     if (inherits(object, "try-error"))
-        return(object)
+        return(structure(as.character(object), class="try-error"))
     out <- structure(list(
         call=object$call,
         formula=formula(object),
