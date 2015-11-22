@@ -1,1 +1,1 @@
-export(glm_skeleton)
+exportPattern("^[[:alpha:]]+")
